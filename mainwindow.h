@@ -23,7 +23,14 @@ private slots:
 
     void on_lewy_clicked();
 
-    void on_radio1_clicked();
+
+
+
+    void on_radio2_clicked(bool checked);
+
+    void on_radio3_clicked(bool checked);
+
+    void on_radio1_toggled(bool checked);
 
 private:
     Ui::MainWindow *ui;
